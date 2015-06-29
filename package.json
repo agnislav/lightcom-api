@@ -1,0 +1,27 @@
+{
+  "name": "lightcom-api",
+  "version": "0.0.1",
+  "description": "JSON-API for LightCom storefront",
+  "homepage": "https://github.com/agnislav/lightcom-api",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agnislav/lightcom-api.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Agnislav Onufrijchuk",
+  "license": "JSON",
+  "dependencies": {
+    "async": "^1.0.0",
+    "json-api": "^2.6.0",
+    "mongoose": "^4.0.6"
+  },
+  "peerDependencies": {
+    "express": "^4.x.x"
+  }
+}

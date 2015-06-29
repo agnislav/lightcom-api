@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "product1",
+    "categories": ["cat1"],
+    "name": "Product #1",
+    "description": "Description for the product",
+    "price": {
+      "currency": "USD",
+      "value": 1.99,
+      "format": "$[[value]]"
+    }
+  },
+  {
+    "_id": "product2",
+    "categories": ["cat2", "cat1-subcat1"],
+    "name": "Product #2",
+    "description": "Description for the second product",
+    "price": {
+      "currency": "USD",
+      "value": 4.99,
+      "format": "$[[value]]"
+    }
+  },
+  {
+    "_id": "product3",
+    "categories": ["cat1-subcat1"],
+    "name": "Product #3",
+    "description": "Description for the third product",
+    "price": {
+      "currency": "USD",
+      "value": 9.99,
+      "format": "$[[value]]"
+    }
+  }
+]

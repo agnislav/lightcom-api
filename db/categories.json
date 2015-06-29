@@ -1,0 +1,5 @@
+[
+  {"_id": "cat1", "name": "Category 1", "subcategories": ["cat1-subcat1"], "products": ["product1"]},
+  {"_id": "cat2", "name": "Category 2", "products": ["product2"]},
+  {"_id": "cat1-subcat1", "name": "Subcategory 1", "parentCategory": "cat1", "products": ["product2", "product3"]}
+]
