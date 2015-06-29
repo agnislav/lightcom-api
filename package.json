@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "JSON-API for LightCom storefront",
   "homepage": "https://github.com/agnislav/lightcom-api",
+  "bugs": "https://github.com/agnislav/lightcom-api/issues",
   "repository": {
     "type": "git",
     "url": "git://github.com/agnislav/lightcom-api.git"
